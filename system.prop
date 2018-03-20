@@ -174,3 +174,9 @@ ro.debuggable=1
 persist.sys.usb.config=adb
 ro.secure=0
 ro.adb.secure=0
+
+# Higher fling velocities to smooth scrolling
+# and provide better responsiveness
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.min.fling_velocity=160 \
+ro.max.fling_velocity=20000
