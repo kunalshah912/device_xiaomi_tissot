@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     libshims_skia \
-    Gcam
+    Snap
 
 PRODUCT_PACKAGES += \
     camera.device@3.1-impl \
