@@ -459,3 +459,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/pixelstyle/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     $(LOCAL_PATH)/pixelstyle/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml
 
+# Live Wallpapers
+PRODUCT_PACKAGES += \
+    LiveWallpapersPicker \
+    librs_jni
+
