@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/tissot/full_tissot.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aim/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -52,7 +52,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libgptutils \
     libz
 
-PRODUCT_NAME := aim_tissot
+PRODUCT_NAME := bliss_tissot
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -62,5 +62,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys
 
-# AIM OFFICIAL
-export AIM_BUILD_TYPE=OFFICIAL
