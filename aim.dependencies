@@ -6,7 +6,7 @@
    "revision": "o8.1"
  },
  {
-   "repository": "kunalshah912/android_vendor_aim",
+   "repository": "kunalshah912/vendor_xiaomi_tissot",
    "target_path": "vendor/xiaomi/tissot",
    "remote": "github",
    "revision": "o8.1"
