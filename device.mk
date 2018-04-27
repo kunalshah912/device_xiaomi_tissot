@@ -321,7 +321,8 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl \
+    android.hardware.power@1.1-impl \
+    android.hardware.power@1.1-service \
     power.msm8953
 
 PRODUCT_COPY_FILES += \
@@ -445,9 +446,3 @@ $(call inherit-product, build/target/product/verity.mk)
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     librs_jni
-
-#AIM OTA config
-PRODUCT_PROPERTY_OVERRIDES += \
-        ro.ota.romname=AIM-ROM \
-        ro.ota.version=$(shell date +"%Y%m%d") \
-        ro.ota.manifest=https://raw.githubusercontent.com/AIMROM/OFFICIAL_DEVICES/N/tissot.xml
