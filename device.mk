@@ -191,10 +191,6 @@ PRODUCT_PACKAGES += \
     ethertypes \
     libebtc
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    libkeymaster1
-
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
